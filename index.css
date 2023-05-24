@@ -1,0 +1,183 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header{
+    background-color: #3F3B6C;
+}
+
+.nav-row{
+    background-color: #3F3B6C;
+    color:white;
+}
+
+.nav-row p:hover{
+    color: #F2CD5C;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.user-icon{
+    object-fit: contain;
+    max-width: 7rem;
+    max-height: 7rem;
+}
+
+
+.info{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 8rem;
+    color: white;
+}
+
+.info * {
+    margin-bottom: 0.8rem;
+}
+
+.social-icon{
+    object-fit: contain;
+    max-width: 1rem;
+    max-height: 1rem;
+}
+
+
+.accented{
+    color: rgb(234, 241, 248);
+}
+
+.hire-btn{
+    background-color: #E9A178;
+    color: white;
+}
+
+.hire-btn:hover{
+    color:black
+}
+
+
+.abt-me-user{
+    max-height: 10rem;
+    max-width: 10rem;
+    object-fit: contain;
+}
+
+.abt-me .user-info{
+    display: flex;
+    background-color: #7A3E65;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-card{
+    border-radius: 0.5rem;
+     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.skill-card-section-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+    /* background-color: #E9A178; */
+    height: 100%;
+}
+
+.download{
+    align-self: flex-start;
+    border-radius: 0.5rem;
+}
+
+.skill-range{
+    display: flex;
+    flex-direction: column;
+    padding:3rem ;
+    justify-content: flex-start;
+}
+
+
+.milestones{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.milestone-icon{
+    max-height: 5rem;
+    max-width: 5rem;
+    object-fit: contain;
+}
+
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-card{
+    
+    min-height: 20rem;
+    border-radius: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin: 1rem 2rem;
+}
+
+.service-card p{
+    font-size: 0.8rem;
+    color: #e0e0e0;
+}
+
+.service-icon{
+    object-fit: contain;
+    max-width: 10rem;
+    max-height: 10rem;
+}
+
+.carousel-inner img{
+    max-height: 30rem;
+    object-fit: contain;
+}
+
+
+
+
+.carousel-control-icon{
+    padding: 1.2rem;
+    max-width: 5rem;
+    max-height: 5rem;
+    border-radius: 1rem;
+}
+
+.review-card{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    flex-direction: column;
+    /* background-color: #7A3E65; */
+}
+
+.review-card p{
+    margin:0 10rem;
+}
+
+.review-icon{
+    max-width: 10rem;
+    max-height: 10rem;
+}
